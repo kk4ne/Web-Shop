@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Redirect, Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import AuthorizeRoute from './components/api-authorization/AuthorizeRoute';
 import { Layout } from './components/Layout';
